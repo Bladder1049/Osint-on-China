@@ -1,0 +1,16 @@
+Built by Syncore LLC - https://syncore.LLC
+
+👨‍💻 TEAM
+    Shaun Chander - Lead Developer
+    Chris Hughes - Lead Designer
+
+    Khaled Elbalal - Developer
+    Pelle Van Der Knaap - Developer
+    Salim Absi - Developer
+    Caleb Delbridge - Developer
+
+⚙️ SITE
+    Built with Astro, TailwindCSS, Directus, and lots of love.
+    Completed on DATE
+
+Looking to get a website? Visit https://syncore.llc and contact us for a free estimate.
