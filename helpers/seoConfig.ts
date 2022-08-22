@@ -4,7 +4,8 @@ import type { ManifestOptions } from "vite-plugin-pwa"
  */
 export const defaultSEO = {
 	baseURL: "https://example.com",
-	description: "syncore-astro-starter",
+	description:
+		"Our technology collects better data for your analysis, intelligence and insights.",
 	type: "website",
 	image: {
 		url: "https://picsum.photos/1200/630",
@@ -12,7 +13,7 @@ export const defaultSEO = {
 		width: 1200,
 		height: 630
 	},
-	siteName: "Syncore",
+	siteName: "Osint on China",
 	twitter: {
 		card: "summary_large_image"
 	}
@@ -22,11 +23,12 @@ export const defaultSEO = {
  * Defines the configuration for PWA webmanifest.
  */
 export const manifest: Partial<ManifestOptions> = {
-	name: "syncore-astro-starter",
-	short_name: "syncore-astro-starter",
-	description: "syncore-astro-starter",
-	theme_color: "#00C999",
-	background_color: "#0D141F",
+	name: "Osint on China",
+	short_name: "Osint on China",
+	description:
+		"Our technology collects better data for your analysis, intelligence and insights.",
+	theme_color: "#F06A25",
+	background_color: "#4D4D4D",
 	display: "minimal-ui",
 	icons: [
 		{
