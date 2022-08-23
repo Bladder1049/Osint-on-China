@@ -8,41 +8,32 @@
 	html {
 		@apply h-full w-full;
 	}
+
+	a,
+	button {
+		@apply focus:outline-none;
+	}
 }
 
-@layer component {
+@layer components {
 	h1,
 	.h1 {
-		@apply text-6xl;
+		@apply text-[36px] font-light leading-[1.5] md:text-[42px] md:leading-[1.5];
 	}
 	h2,
 	.h2 {
-		@apply text-5xl;
+		@apply text-[30px] font-normal leading-[1.5] md:text-[38px] md:leading-[1.5];
 	}
 	h3,
 	.h3 {
-		@apply text-4xl;
+		@apply text-[28px] font-normal leading-[1.5];
 	}
-	h4,
-	.h4 {
-		@apply text-3xl;
-	}
-	h5,
-	.h5 {
-		@apply text-2xl;
-	}
-	h6,
-	.h6 {
-		@apply text-xl;
-	}
+
 	p,
 	.p {
-		@apply text-base;
+		@apply text-[19px] leading-[1.5];
 	}
 	.small {
-		@apply text-sm;
-	}
-	.tiny {
-		@apply text-xs;
+		@apply text-[15px] leading-[1.5];
 	}
 }

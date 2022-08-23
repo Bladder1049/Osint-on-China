@@ -1,1 +1,1 @@
-export { default as GreetingSlice } from "./GreetingSlice.svelte"
+export { default as HeroSlice } from "./HeroSlice.svelte"

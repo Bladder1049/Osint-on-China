@@ -16,6 +16,11 @@
 	export let className: string
 </script>
 
-<section {id} class={cn(className, { "p-6": !__noPadding })}>
+<section
+	{id}
+	class={cn(className, {
+		"px-6 py-12 md:py-20 lg:px-10 lg:py-24": !__noPadding
+	})}
+>
 	<slot />
 </section>
