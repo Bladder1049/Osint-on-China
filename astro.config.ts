@@ -11,7 +11,17 @@ import { manifest, defaultSEO } from "./helpers/seoConfig"
 // https://astro.build/config
 export default defineConfig({
 	site: defaultSEO.baseURL,
-	integrations: [tailwind({}), svelte(), sitemap(), compress()],
+	integrations: [
+		tailwind({
+			config: {
+				applyBaseStyles: false,
+				path: "./tailwind.config.js"
+			}
+		}),
+		svelte(),
+		sitemap(),
+		compress()
+	],
 	vite: {
 		plugins: [
 			SvelteSVG(),

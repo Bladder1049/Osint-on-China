@@ -8,7 +8,6 @@
 	html {
 		@apply h-full w-full;
 	}
-
 	a,
 	button {
 		@apply focus:outline-none;

@@ -23,7 +23,7 @@
 			<!-- Read more button -->
 			<Link
 				href="#about-us"
-				class="flex items-center space-x-5 transition duration-300 ease-in-out hover:text-orange-500 focus:text-orange-500"
+				className="flex items-center space-x-5 transition duration-300 ease-in-out hover:text-orange-500 focus:text-orange-500"
 			>
 				<DownArrow />
 				<span class="opacity-50">read more</span>
