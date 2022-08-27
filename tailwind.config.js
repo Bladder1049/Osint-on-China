@@ -18,10 +18,9 @@ module.exports = {
 				white: "#FFFFFF"
 			},
 			screens: {
-				sm: "400px"
-			},
-			corePlugins: {
-				fontSize: false
+				sm: "400px",
+				xl: "1066px",
+				"2xl": "1066px"
 			},
 			fontFamily: {
 				body: ["Outfit", "sans-serif"]
@@ -31,10 +30,5 @@ module.exports = {
 			}
 		}
 	},
-	plugins: [
-		require("flowbite/plugin"),
-		require("tailwindcss-fluid-type"),
-		require("tailwind-scrollbar"),
-		require("tailwindcss-animate")
-	]
+	plugins: [require("tailwind-scrollbar"), require("tailwindcss-animate")]
 }
