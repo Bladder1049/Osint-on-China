@@ -1,5 +1,5 @@
 backend:
-    name: test-repo
+    name: git-gateway
 
 media_folder: "public/images"
 public_folder: "/images"
@@ -18,4 +18,3 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Reading time", name: "readingTime", widget: "number"}
       - {label: "Post", name: "post", widget: "markdown"}
-			- {label: "Related Articles", name: "relatedArticles", widget: "string"}
