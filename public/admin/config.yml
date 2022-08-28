@@ -1,0 +1,21 @@
+backend:
+    name: test-repo
+
+media_folder: "public/images"
+public_folder: "/images"
+site_url: "https://osintonchina.com"
+
+
+collections:
+  - name: "article"
+    label: "Article"
+    folder: "_articles"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Reading time", name: "readingTime", widget: "number"}
+      - {label: "Post", name: "post", widget: "markdown"}
+			- {label: "Related Articles", name: "relatedArticles", widget: "string"}
