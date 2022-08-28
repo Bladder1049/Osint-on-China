@@ -24,10 +24,9 @@
 					<div class="space-y-3">
 						<Text tag="h2">Contact us</Text>
 						<Text
-							>These two addresses are hosted at ProtonMail. If contacting from
-							a ProtonMail address, the entire communication is End-To-End
-							Encrypted (E2EE). Secure communications options for Wire, and
-							Tutanota are available upon request."</Text
+							>If you'd like to learn more about our OSINT services, contact us
+							today. We’ll talk about your requirements and get back to you with
+							a customized quote and some additional information.</Text
 						>
 
 						<!-- Links -->
@@ -35,16 +34,16 @@
 							<ul class="grid gap-2">
 								<li>
 									<a
-										href="mailto:"
+										href="mailto:support@osintonchina.com"
 										class="text-orange-500 hover:underline focus:underline"
-										>contact@email.com</a
+										>support@osintonchina.com</a
 									>
 								</li>
 								<li>
 									<a
-										href="mailto:"
+										href="mailto:services@osintonchina.com"
 										class="text-orange-500 hover:underline focus:underline"
-										>secondcontact@email.com</a
+										>services@osintonchina.com</a
 									>
 								</li>
 							</ul>
@@ -58,12 +57,18 @@
 					<div>
 						<ul class="flex items-center space-x-5">
 							<li>
-								<ExternalLink href="#">
+								<ExternalLink
+									href="https://twitter.com/OSINTonChina"
+									className="hover:scale-105 focus:scale-105 transition transform-gpu duration-300 ease-in-out"
+								>
 									<Twitter />
 								</ExternalLink>
 							</li>
 							<li>
-								<Link href="#">
+								<Link
+									href="#"
+									className="hover:scale-105 focus:scale-105 transition transform-gpu duration-300 ease-in-out"
+								>
 									<RSS />
 								</Link>
 							</li>

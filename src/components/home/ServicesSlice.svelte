@@ -17,12 +17,16 @@
 		>
 			<Text tag="h2" className="text-center">Services</Text>
 			<Text
-				>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-				nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-				sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-				rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-				ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
-				elitr, sed diam.</Text
+				>We offer access to a wealth of information that can help you make
+				better decisions about your business or personal future at competitive
+				prices.</Text
+			>
+			<Text
+				>OSINT has been used in a variety of applications, including military
+				intelligence and law enforcement investigations. We can help you analyze
+				the data you find to identify new opportunities for growth or
+				innovation, avoid costly errors, or improve security posture by keeping
+				an eye on potential threats.</Text
 			>
 		</div>
 
@@ -38,8 +42,10 @@
 				<div class="space-y-[10px]">
 					<Text tag="h3" style="h4">Identify</Text>
 					<Text
-						>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-						nonumy eirmod te</Text
+						>OSINT can help you identify and gather information on individuals,
+						organizations, and other entities. It can be used in conjunction
+						with intelligence-gathering techniques to provide valuable insight
+						into the activities of individuals or organizations.</Text
 					>
 				</div>
 			</div>
@@ -52,8 +58,9 @@
 				<div class="space-y-[10px]">
 					<Text tag="h3" style="h4">Locate</Text>
 					<Text
-						>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-						nonumy eirmod te</Text
+						>We know that the best way to locate your targeted information is
+						through a careful combination of online research, professional
+						networking, and personal connections.</Text
 					>
 				</div>
 			</div>
@@ -64,10 +71,12 @@
 					<LightBulb />
 				</div>
 				<div class="space-y-[10px]">
-					<Text tag="h3" style="h4">Solution for follow-up action plan</Text>
+					<Text tag="h3" style="h4">Action</Text>
 					<Text
-						>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-						nonumy eirmod te</Text
+						>OSINT enables us to quickly identify new opportunities and threats,
+						giving you an edge over your competitors. This allows us to take
+						action and make informed decisions that can improve your business
+						strategy.</Text
 					>
 				</div>
 			</div>

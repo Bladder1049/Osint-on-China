@@ -67,7 +67,7 @@
 				<!-- Copyright (destop and up) -->
 				<div class="hidden xl:block xl:text-center">
 					<Text style="small" className="opacity-50"
-						>Copyright &copy; 2022 OsintOnChina.com |All Rights Reserved | <a
+						>Copyright &copy; 2022 OsintOnChina.com | All Rights Reserved | <a
 							href="/privacy-policy"
 							class="transition duration-300 ease-in-out hover:text-orange-500 focus:text-orange-500"
 							>Privacy Polciy</a
@@ -83,12 +83,18 @@
 						<Text>Follow us on</Text>
 					</li>
 					<li>
-						<ExternalLink href="#">
+						<ExternalLink
+							href="https://twitter.com/OSINTonChina"
+							className="hover:scale-105 focus:scale-105 transition transform-gpu duration-300 ease-in-out"
+						>
 							<Twitter />
 						</ExternalLink>
 					</li>
 					<li>
-						<Link href="#">
+						<Link
+							href="#"
+							className="hover:scale-105 focus:scale-105 transition transform-gpu duration-300 ease-in-out"
+						>
 							<RSS />
 						</Link>
 					</li>

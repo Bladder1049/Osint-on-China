@@ -14,14 +14,19 @@
 			<!-- Right side -->
 			<div class="space-y-6 xl:w-1/2 xl:max-w-[546px]">
 				<Text tag="h1">
-					Our technology collects better <span class="text-orange-500"
-						>data for your analysis</span
-					>, intelligence and insights
+					Our services provide better <span class="text-orange-500"
+						>information</span
+					>
+					for your analysis,
+					<span class="text-orange-500">intelligence</span>, and
+					<span class="text-orange-500">insights</span>
 				</Text>
 				<Text>
-					OSINT stands for Open Source Intelligence, and this means collecting
-					information from openly available sources online. This includes data
-					mining, various crawling techniques, data extraction, data washing and
+					Open-Source Intelligence (OSINT) is a valuable tool used by corporate
+					entities and organizations to gather information about their
+					competitors, customers, and partners. The process involves collecting
+					information from openly available sources online through data mining,
+					various crawling techniques, data extraction, data washing, and
 					analysis.
 				</Text>
 				<!-- Read more button -->

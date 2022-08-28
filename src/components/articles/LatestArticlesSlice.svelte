@@ -1,13 +1,16 @@
 <script>
 	// Component imports
-	import { Section, Container, Text } from "@utils"
+	import { Text, Hero, Container } from "@utils"
 	import { Article } from "@component/Article"
+
+	// Static imports
+	import Grid from "@svg/grid.svg?component"
 </script>
 
-<Section id="latest-articles" className="relative z-10">
+<Hero>
 	<Container>
 		<div class="space-y-10">
-			<div>
+			<div class="text-center">
 				<Text tag="h2">Latest articles</Text>
 			</div>
 
@@ -39,4 +42,11 @@
 			</div>
 		</div>
 	</Container>
-</Section>
+
+	<!-- Wave graphic -->
+	<div class="hidden origin-center xl:absolute xl:left-0 xl:bottom-0 xl:block">
+		<div class="-translate-x-2/3 -translate-y-1/2 transform-gpu">
+			<Grid />
+		</div>
+	</div>
+</Hero>

@@ -51,7 +51,7 @@
 				</li>
 				<li>
 					<Link
-						href="/"
+						href="/articles"
 						className="hover:text-orange-500 duration-300 ease-in-out transition focus:text-orange-500"
 					>
 						<Text>articles</Text>
