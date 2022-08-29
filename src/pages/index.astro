@@ -8,12 +8,17 @@ import {
 	LatestArticlesSlice,
 	ContactSlice
 } from "@component/home"
+
+// Fetch all articles
+const articles = await Astro.glob("../../_articles/*.md")
+
+const filteredArticles = articles.slice(0, 3)
 ---
 
 <Layout title="Home">
 	<HeroSlice />
 	<AboutSlice />
 	<ServicesSlice />
-	<LatestArticlesSlice />
+	<LatestArticlesSlice data={filteredArticles} />
 	<ContactSlice />
 </Layout>

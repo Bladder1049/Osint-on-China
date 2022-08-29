@@ -39,6 +39,9 @@ const {
 	image,
 	disableIndexing = false
 } = Astro.props as Props
+
+// Grab the current pathname.
+const pathName = Astro.url.pathname
 ---
 
 <html lang="en">
@@ -172,7 +175,7 @@ const {
 	<body
 		class="min-h-screen flex flex-col w-full overflow-x-hidden overscroll-none font-body text-gray-900 bg-gray-200"
 	>
-		<Header />
+		<Header pathName={pathName} />
 
 		<main class="flex flex-1 flex-col h-[100%] w-full overflow-x-hidden">
 			<slot />

@@ -1,7 +1,13 @@
-<script>
+<script lang="ts">
 	// Component imports
 	import { Section, Container, Text } from "@utils"
 	import { Article } from "@component/Article"
+
+	// Type imports
+	import type { MarkdownInstance } from "astro"
+
+	// Props
+	export let data: MarkdownInstance<Record<string, any>>[]
 </script>
 
 <Section id="latest-articles" className="relative z-10">
@@ -12,30 +18,15 @@
 			</div>
 
 			<div class="grid gap-8">
-				<Article
-					date="April 17, 2022"
-					title="From NextJS to Astro"
-					description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetm"
-					slug="/"
-				/>
-				<Article
-					date="April 17, 2022"
-					title="From NextJS to Astro"
-					description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetm"
-					slug="/"
-				/>
-				<Article
-					date="April 17, 2022"
-					title="From NextJS to Astro"
-					description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetm"
-					slug="/"
-				/>
-				<Article
-					date="April 17, 2022"
-					title="From NextJS to Astro"
-					description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetm"
-					slug="/"
-				/>
+				{#each data as article}
+					<Article
+						date={article.frontmatter.date}
+						title={article.frontmatter.title}
+						description={article.frontmatter.description}
+						slug={article.frontmatter.title}
+						readingTime={article.frontmatter.readingTime}
+					/>
+				{/each}
 			</div>
 		</div>
 	</Container>

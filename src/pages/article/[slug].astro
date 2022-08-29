@@ -1,0 +1,33 @@
+---
+// Component imports
+import Layout from "@layout"
+import { ArticleSlice } from "@component/articles"
+
+// Fetch static paths
+export const getStaticPaths = async () => {
+	// Fetch all articles
+	const articles = await Astro.glob("../../../_articles/*.md")
+
+	return articles.map((article) => {
+		return {
+			params: {
+				slug: article.frontmatter.title.toLocaleLowerCase().split(" ").join("-")
+			},
+			props: { ...article }
+		}
+	})
+}
+
+const { slug } = Astro.params
+const { frontmatter } = Astro.props
+
+const data = { slug, frontmatter }
+---
+
+<Layout
+	title={data.frontmatter.title}
+	description={data.frontmatter.description}
+	image={data.frontmatter.thumbnail}
+>
+	<ArticleSlice data={data} />
+</Layout>

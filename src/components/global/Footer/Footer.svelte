@@ -8,8 +8,10 @@
 	import RSS from "@svg/icons/rss.svg?component"
 </script>
 
-<footer class="p-6 lg:px-10 xl:py-12">
-	<Container>
+<footer class="px-6 lg:px-10">
+	<Container
+		className="py-6 lg:py-16 border-t border-gray-900 border-opacity-10"
+	>
 		<div
 			class="flex flex-col items-center justify-center space-y-5 xl:flex-row xl:items-start xl:justify-between xl:space-y-0 xl:space-x-6"
 		>
@@ -83,18 +85,12 @@
 						<Text>Follow us on</Text>
 					</li>
 					<li>
-						<ExternalLink
-							href="https://twitter.com/OSINTonChina"
-							className="hover:scale-105 focus:scale-105 transition transform-gpu duration-300 ease-in-out"
-						>
+						<ExternalLink href="https://twitter.com/OSINTonChina">
 							<Twitter />
 						</ExternalLink>
 					</li>
 					<li>
-						<Link
-							href="#"
-							className="hover:scale-105 focus:scale-105 transition transform-gpu duration-300 ease-in-out"
-						>
+						<Link href="#">
 							<RSS />
 						</Link>
 					</li>
@@ -103,10 +99,13 @@
 
 			<!-- Copyright -->
 			<div class="text-center lg:hidden">
-				<Text style="small" className="opacity-50"
-					>Copyright &copy; 2022 OsintOnChina.com |All Rights Reserved | <Link
+				<Text style="small" className="">
+					<span class="opacity-50"
+						>Copyright &copy; 2022 OsintOnChina.com |All Rights Reserved</span
+					>
+					| <Link
 						href="/privacy-policy"
-						className="transition duration-300 ease-in-out hover:text-orange-500 hover:opacity-100 focus:text-orange-500 focus:opacity-100"
+						className="transition duration-300 opacity-50 ease-in-out hover:text-orange-500 hover:opacity-100 focus:text-orange-500 focus:opacity-100"
 						>Privacy Policy</Link
 					>
 				</Text>

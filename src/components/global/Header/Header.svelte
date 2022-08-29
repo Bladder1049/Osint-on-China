@@ -1,13 +1,16 @@
-<script>
+<script lang="ts">
 	// Component imports
 	import { Link, Text, Container } from "@utils"
 
 	// Static imports
 	import Logo from "@svg/logo.svg"
+
+	// Props
+	export let pathName: string
 </script>
 
-<header class="sticky inset-x-0 top-0 z-50 bg-gray-200 p-6 lg:px-10">
-	<Container>
+<header class="sticky inset-x-0 top-0 z-50 bg-gray-200 px-6 lg:px-10">
+	<Container className="py-6 border-b border-gray-900 border-opacity-10">
 		<nav class="space-y-2 md:flex md:items-center md:justify-between">
 			<!-- Logo -->
 			<div class="w-2/3 max-w-[298px]">
@@ -29,22 +32,25 @@
 					<Link
 						href="/"
 						className="hover:text-orange-500 duration-300 ease-in-out transition focus:text-orange-500"
+						{pathName}
 					>
 						<Text>home</Text>
 					</Link>
 				</li>
 				<li>
 					<Link
-						href="/"
+						href="/about"
 						className="hover:text-orange-500 duration-300 ease-in-out transition focus:text-orange-500"
+						{pathName}
 					>
 						<Text>about</Text>
 					</Link>
 				</li>
 				<li>
 					<Link
-						href="/"
+						href="/services"
 						className="hover:text-orange-500 duration-300 ease-in-out transition focus:text-orange-500"
+						{pathName}
 					>
 						<Text>services</Text>
 					</Link>
@@ -53,14 +59,16 @@
 					<Link
 						href="/articles"
 						className="hover:text-orange-500 duration-300 ease-in-out transition focus:text-orange-500"
+						{pathName}
 					>
 						<Text>articles</Text>
 					</Link>
 				</li>
 				<li>
 					<Link
-						href="/"
+						href="/contact"
 						className="hover:text-orange-500 duration-300 ease-in-out transition focus:text-orange-500"
+						{pathName}
 					>
 						<Text>contact</Text>
 					</Link>
