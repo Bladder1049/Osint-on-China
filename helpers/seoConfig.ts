@@ -3,7 +3,7 @@ import type { ManifestOptions } from "vite-plugin-pwa"
  * Defines the default SEO configuration for the website.
  */
 export const defaultSEO = {
-	baseURL: "https://example.com",
+	baseURL: "https://osintonchina.com",
 	description:
 		"Our technology collects better data for your analysis, intelligence and insights.",
 	type: "website",

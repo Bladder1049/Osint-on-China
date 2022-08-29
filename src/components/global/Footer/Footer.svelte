@@ -67,10 +67,10 @@
 				<!-- Copyright (destop and up) -->
 				<div class="hidden xl:block xl:text-center">
 					<Text style="small" className="opacity-50"
-						>Copyright &copy; 2022 OsintOnChina.com | All Rights Reserved | <a
+						>Copyright &copy; 2022 OsintOnChina.com | All Rights Reserved | <Link
 							href="/privacy-policy"
-							class="transition duration-300 ease-in-out hover:text-orange-500 focus:text-orange-500"
-							>Privacy Polciy</a
+							className="transition duration-300 ease-in-out hover:text-orange-500 hover:opacity-100 focus:text-orange-500 focus:opacity-100"
+							>Privacy Policy</Link
 						>
 					</Text>
 				</div>
@@ -104,10 +104,10 @@
 			<!-- Copyright -->
 			<div class="text-center lg:hidden">
 				<Text style="small" className="opacity-50"
-					>Copyright &copy; 2022 OsintOnChina.com |All Rights Reserved | <a
+					>Copyright &copy; 2022 OsintOnChina.com |All Rights Reserved | <Link
 						href="/privacy-policy"
-						class="transition duration-300 ease-in-out hover:text-orange-500 focus:text-orange-500"
-						>Privacy Policy</a
+						className="transition duration-300 ease-in-out hover:text-orange-500 hover:opacity-100 focus:text-orange-500 focus:opacity-100"
+						>Privacy Policy</Link
 					>
 				</Text>
 			</div>
