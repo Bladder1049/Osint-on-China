@@ -12,7 +12,7 @@ import {
 // Fetch all articles
 const articles = await Astro.glob("../../_articles/*.md")
 
-const filteredArticles = articles.slice(0, 3)
+const filteredArticles = articles.slice(-3)
 ---
 
 <Layout title="Home">

@@ -3,6 +3,9 @@
 import Layout from "@layout"
 import { ArticleSlice } from "@component/articles"
 
+// Fetch all articles
+const articles = await Astro.glob("../../../_articles/*.md")
+
 // Fetch static paths
 export const getStaticPaths = async () => {
 	// Fetch all articles
@@ -20,6 +23,13 @@ export const getStaticPaths = async () => {
 
 const { slug } = Astro.params
 const { frontmatter } = Astro.props
+
+// Find related articles
+const relatedArticles = articles.filter((article) => {
+	return article.frontmatter.relatedArticles.includes(
+		frontmatter.relatedArticles[0] || frontmatter.relatedArticles[1]
+	)
+})
 
 const data = { slug, frontmatter }
 ---
