@@ -12,6 +12,9 @@ export const getStaticPaths = async () => {
 	const articles = await Astro.glob("../../../_articles/*.md")
 
 	return articles.map((article) => {
+		console.log(
+			article.frontmatter.title.toLocaleLowerCase().split(" ").join("-")
+		)
 		return {
 			params: {
 				slug: article.frontmatter.title.toLocaleLowerCase().split(" ").join("-")
