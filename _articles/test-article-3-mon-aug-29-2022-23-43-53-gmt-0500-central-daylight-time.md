@@ -1,5 +1,5 @@
 ---
-title: "Test Article #3"
+title: Test Article 3
 description: Test
 date: 2022-08-30T04:43:53.124Z
 thumbnail: https://picsum.photos/500/500
