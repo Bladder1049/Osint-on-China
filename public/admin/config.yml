@@ -11,7 +11,6 @@ editor:
 
 collections:
   - name: "article"
-
     label: "Article"
     folder: "_articles"
     create: true
@@ -23,3 +22,11 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Reading time", name: "readingTime", widget: "number"}
       - {label: "Post", name: "post", widget: "markdown"}
+      - label: "Related Articles"
+        name: "relatedArticles"
+        widget: "relation"
+        collection: "article"
+        search_fields: ["title"]
+        value_field: "{{slug}}"
+        multiple: true
+        max: 2
