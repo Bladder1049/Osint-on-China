@@ -32,15 +32,6 @@ export default defineConfig({
 					globDirectory: "dist",
 					globPatterns: [
 						"**/*.{js,css,svg,png,jpg,jpeg,gif,webp,woff,woff2,ttf,eot,ico,html}"
-					],
-					runtimeCaching: [
-						{
-							urlPattern: /^https:\/\/cdn\.syncore\.llc\/.*/i,
-							handler: "StaleWhileRevalidate",
-							options: {
-								cacheName: "syncore-cdn-cache"
-							}
-						}
 					]
 				}
 			})

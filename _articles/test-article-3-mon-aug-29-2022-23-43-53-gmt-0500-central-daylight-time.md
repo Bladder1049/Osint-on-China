@@ -6,6 +6,6 @@ thumbnail: https://picsum.photos/500/500
 readingTime: 3
 post: test 3
 relatedArticles:
-  - "Test Article #1"
-  - "Test Article #2"
+  - "Test Article 1"
+  - "Test Article 2"
 ---

@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@astrojs/rss': ^1.0.0
   '@astrojs/sitemap': ^1.0.0
   '@astrojs/svelte': ^1.0.0
   '@astrojs/tailwind': ^1.0.0
@@ -32,6 +33,7 @@ dependencies:
   dayjs: 1.11.5
 
 devDependencies:
+  '@astrojs/rss': 1.0.0
   '@astrojs/sitemap': 1.0.0
   '@astrojs/svelte': 1.0.0_eukj6rrd5vur5lnckkqvpitj6e
   '@astrojs/tailwind': 1.0.0
@@ -147,6 +149,12 @@ packages:
     engines: {node: ^14.18.0 || >=16.12.0}
     dependencies:
       prismjs: 1.29.0
+    dev: true
+
+  /@astrojs/rss/1.0.0:
+    resolution: {integrity: sha512-vOPocf/SC0TfHsCwQXupvLGm0y3oIwpRCnnF2igDP3gFSxQEOk4nmsuVTEU2N87hYyX1/5uxbjJhixuSV/L8Cw==}
+    dependencies:
+      fast-xml-parser: 4.0.9
     dev: true
 
   /@astrojs/sitemap/1.0.0:
@@ -3370,6 +3378,13 @@ packages:
     resolution: {integrity: sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==}
     dev: true
 
+  /fast-xml-parser/4.0.9:
+    resolution: {integrity: sha512-4G8EzDg2Nb1Qurs3f7BpFV4+jpMVsdgLVuG1Uv8O2OHJfVCg7gcA53obuKbmVqzd4Y7YXVBK05oJG7hzGIdyzg==}
+    hasBin: true
+    dependencies:
+      strnum: 1.0.5
+    dev: true
+
   /fastq/1.13.0:
     resolution: {integrity: sha512-YpkpUnK8od0o1hmeSc7UUs/eB/vIPWJYjKck2QKIzAf71Vm1AAQ3EbuZB3g2JIy+pg+ERD0vqI79KyZiB2e2Nw==}
     dependencies:
@@ -5934,6 +5949,10 @@ packages:
   /strip-json-comments/3.1.1:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
     engines: {node: '>=8'}
+    dev: true
+
+  /strnum/1.0.5:
+    resolution: {integrity: sha512-J8bbNyKKXl5qYcR36TIO8W3mVGVHrmmxsd5PAItGkmyzwJvybiw2IVq5nqd0i4LSNSkB/sx9VHllbfFdr9k1JA==}
     dev: true
 
   /style-to-object/0.3.0:

@@ -12,9 +12,6 @@ export const getStaticPaths = async () => {
 	const articles = await Astro.glob("../../../_articles/*.md")
 
 	return articles.map((article) => {
-		console.log(
-			article.frontmatter.title.toLocaleLowerCase().split(" ").join("-")
-		)
 		return {
 			params: {
 				slug: article.frontmatter.title.toLocaleLowerCase().split(" ").join("-")
@@ -28,13 +25,14 @@ const { slug } = Astro.params
 const { frontmatter } = Astro.props
 
 // Find related articles
-const relatedArticles = articles.filter((article) => {
-	return article.frontmatter.relatedArticles.includes(
-		frontmatter.relatedArticles[0] || frontmatter.relatedArticles[1]
-	)
-})
+let relatedArticles = []
+if (frontmatter.relatedArticles && frontmatter.relatedArticles.length > 0) {
+	relatedArticles = articles.filter((article) => {
+		return frontmatter.relatedArticles.includes(article.frontmatter.title)
+	})
+}
 
-const data = { slug, frontmatter }
+const data = { slug, frontmatter, relatedArticles }
 ---
 
 <Layout
