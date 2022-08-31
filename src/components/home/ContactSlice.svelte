@@ -7,6 +7,7 @@
 	import RSS from "@svg/icons/rss.svg?component"
 	import HomeContact from "@svg/home-contact.svg?component"
 	import Grid from "@svg/grid.svg?component"
+	import Monero from "@svg/monero.svg?component"
 </script>
 
 <Section id="contact" className="relative">
@@ -52,8 +53,12 @@
 				</div>
 
 				<!-- Socials -->
-				<div>
-					<div />
+				<div
+					class="space-y-6 md:flex md:items-center md:space-x-7 md:space-y-0"
+				>
+					<div>
+						<Monero />
+					</div>
 					<div>
 						<ul class="flex items-center space-x-5">
 							<li>
