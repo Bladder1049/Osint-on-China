@@ -26,7 +26,11 @@
 						<Text
 							>If you'd like to learn more about our OSINT services, contact us
 							today. We’ll talk about your requirements and get back to you with
-							a customized quote and some additional information.</Text
+							a customized quote and some additional information. The emails are 
+							secured by proton email sevice and we strongly recommend you also 
+							using proton mail to contact us. Therefore, the entire communication
+						        would be End-To-End Encrypted (E2EE). Secure communications options 
+							for Session, Wire and Element are available upon request.</Text
 						>
 
 						<!-- Links -->
