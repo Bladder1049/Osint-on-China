@@ -24,8 +24,13 @@
 					metadata or any kind of information from our visitors. This website
 					does not have any cookies, analytics tools and trackers. The major
 					part of the website, the landing page and privacy policy, is coded
-					with pure HTML/CSS and uses the Astro framework to provide a better
-					and faster user experience.
+					with multiple advanced languages to serve a better user experience
+				        and uses the Astro framework to provide a better faster user 
+					experience, while maintain pure HTML/CSS to client side. The only 
+					JavaScript we use for the website it to provide a dark/bright mode
+					choice for your preference, which will be stored in your local 
+					storage.
+					
 				</Text>
 				<Text>
 					We use open-source headless CMS with Astro to build our Articles pages

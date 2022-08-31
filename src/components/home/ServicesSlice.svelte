@@ -18,7 +18,7 @@
 			<Text tag="h2" className="text-center">Services</Text>
 			<Text
 				>We offer access to a wealth of information that can help you make
-				better decisions about your business or personal future at competitive
+				better decisions about your organisation or projects at competitive
 				prices.</Text
 			>
 			<Text
@@ -60,7 +60,10 @@
 					<Text
 						>We know that the best way to locate your targeted information is
 						through a careful combination of online research, professional
-						networking, and personal connections.</Text
+						networking, and personal connections. Whether it is a requst for 
+					        real-time or history information, we can do it and we are the 
+						firewall between you and your target and the Chinese survillience 
+					        systems</Text
 					>
 				</div>
 			</div>
@@ -74,9 +77,9 @@
 					<Text tag="h3" style="h4">Action</Text>
 					<Text
 						>OSINT enables us to quickly identify new opportunities and threats,
-						giving you an edge over your competitors. This allows us to take
-						action and make informed decisions that can improve your business
-						strategy.</Text
+						giving you an edge over you and your organisation's mission. This 
+						allows us to take action and make informed decisions that can 
+						improve your tatics and strategy.</Text
 					>
 				</div>
 			</div>
