@@ -66,7 +66,7 @@
 							</li>
 							<li>
 								<Link
-									href="#"
+									href="/rss.xml"
 									className="hover:scale-105 focus:scale-105 transition transform-gpu duration-300 ease-in-out"
 								>
 									<RSS />

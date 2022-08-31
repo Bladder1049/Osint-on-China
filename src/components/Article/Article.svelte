@@ -15,7 +15,7 @@
 
 <Link
 	href={`/article/${slug.toLocaleLowerCase().split(" ").join("-")}`}
-	className="block group hover:bg-orange-500 rounded-2xl transition duration-300 ease-in-out hover:text-white p-4"
+	className="block group hover:bg-orange-500 dark:hover:bg-orange-700 dark:focus:bg-orange-700 rounded-2xl transition duration-300 ease-in-out hover:text-white p-4"
 >
 	<article>
 		<div class="space-x-1 md:flex md:items-center">

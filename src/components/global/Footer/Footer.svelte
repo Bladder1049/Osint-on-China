@@ -90,7 +90,7 @@
 						</ExternalLink>
 					</li>
 					<li>
-						<Link href="#">
+						<Link href="/rss.xml">
 							<RSS />
 						</Link>
 					</li>

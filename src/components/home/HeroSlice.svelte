@@ -31,7 +31,7 @@
 				</Text>
 				<!-- Read more button -->
 				<Link
-					href="#about-us"
+					href="#about"
 					className="flex items-center space-x-5 transition duration-300 ease-in-out hover:text-orange-500 focus:text-orange-500"
 				>
 					<DownArrow />

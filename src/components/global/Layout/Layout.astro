@@ -171,11 +171,28 @@ const pathName = Astro.url.pathname
 			is:inline
 			src="https://identity.netlify.com/v1/netlify-identity-widget.js"
 		></script>
+
+		<!-- Dark mode -->
+		<script>
+			// On page load or when changing themes, best to add inline in `head` to avoid FOUC
+			if (!("theme" in localStorage)) {
+				if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+					localStorage.theme = "dark"
+				} else {
+					localStorage.theme = "light"
+				}
+			}
+			if (localStorage.theme === "dark") {
+				document.documentElement.classList.add("dark")
+			} else {
+				document.documentElement.classList.remove("dark")
+			}
+		</script>
 	</head>
 	<body
-		class="min-h-screen flex flex-col w-full overflow-x-hidden overscroll-none font-body text-gray-900 bg-gray-200"
+		class="min-h-screen flex flex-col w-full overflow-x-hidden overscroll-none font-body text-gray-900 bg-gray-200 dark:bg-gray-900 dark:text-white"
 	>
-		<Header pathName={pathName} />
+		<Header pathName={pathName} client:visible />
 
 		<main class="flex flex-1 flex-col h-[100%] w-full overflow-x-hidden">
 			<slot />
@@ -195,6 +212,7 @@ const pathName = Astro.url.pathname
 				linkStyle
 			)
 		</script>
+		<!-- Netlify Identidy -->
 		<script>
 			if (window.netlifyIdentity) {
 				window.netlifyIdentity.on("init", (user) => {
