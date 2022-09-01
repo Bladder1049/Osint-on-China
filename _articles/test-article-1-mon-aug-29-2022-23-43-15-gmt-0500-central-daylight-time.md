@@ -1,8 +1,8 @@
 ---
-title: Test Article 1
-description: This is a much longer description of the article so we can test out how it looks onsite.
-date: 2022-08-30T04:43:15.106Z
-thumbnail: https://picsum.photos/500/500
+title: Coming Soon
+description: First piece aritcle of OSINTonChina
+date: 2022-09-01T09:47:35.200Z
+thumbnail: /images/beijing.jpg
 readingTime: 1
-post: test
+post: Coming soon
 ---
