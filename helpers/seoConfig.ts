@@ -5,7 +5,7 @@ import type { ManifestOptions } from "vite-plugin-pwa"
 export const defaultSEO = {
 	baseURL: "https://osintonchina.com",
 	description:
-		"Our technology collects better data for your analysis, intelligence and insights.",
+		"Our Services provide better information for your analysis, intelligence and insights.",
 	type: "website",
 	image: {
 		url: "https://picsum.photos/1200/630",
@@ -26,7 +26,7 @@ export const manifest: Partial<ManifestOptions> = {
 	name: "Osint on China",
 	short_name: "Osint on China",
 	description:
-		"Our technology collects better data for your analysis, intelligence and insights.",
+		"Our Services provide better information for your analysis, intelligence and insights.",
 	theme_color: "#F06A25",
 	background_color: "#4D4D4D",
 	display: "minimal-ui",
