@@ -26,7 +26,7 @@
 					entities and organizations to gather information about their
 					targets and partners. The process involves collecting
 					information from openly available sources online through data mining,
-					various crawling techniques, data extraction, data washing, analysis.
+					various crawling techniques, data extraction, data washing, analysis,
 					breached data and our unique network which enable us to access non-public 
 					database in China.
 					
