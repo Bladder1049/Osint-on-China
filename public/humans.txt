@@ -1,8 +1,3 @@
-Built by Syncore LLC - https://syncore.LLC
-
-
 ⚙️ SITE
     Built with Astro, TailwindCSS, Directus, and lots of love.
     Completed on DATE
-
-Looking to get a website? Visit https://syncore.llc and contact us for a free estimate.
