@@ -46,9 +46,9 @@
 								</li>
 								<li>
 									<a
-										href="mailto:services@osintonchina.com"
+										href="mailto:service@osintonchina.com"
 										class="text-orange-500 hover:underline focus:underline"
-										>services@osintonchina.com</a
+										>service@osintonchina.com</a
 									>
 								</li>
 							</ul>
