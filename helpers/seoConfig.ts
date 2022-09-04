@@ -8,10 +8,10 @@ export const defaultSEO = {
 		"Our Services provide better information for your analysis, intelligence and insights.",
 	type: "website",
 	image: {
-		url: "https://picsum.photos/1200/630",
+		url: "https://osintonchina.com/images/preview.png",
 		alt: "OpenGraph thumbnail description.",
 		width: 1200,
-		height: 630
+		height: 665
 	},
 	siteName: "Osint on China",
 	twitter: {
