@@ -11,7 +11,7 @@ export const defaultSEO = {
 		url: "https://osintonchina.com/images/preview.png",
 		alt: "OpenGraph thumbnail description.",
 		width: 1200,
-		height: 665
+		height: 630
 	},
 	siteName: "Osint on China",
 	twitter: {
