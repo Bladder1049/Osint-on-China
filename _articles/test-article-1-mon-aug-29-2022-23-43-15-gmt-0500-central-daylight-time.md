@@ -26,14 +26,10 @@ post: >-
   Therefore, OSINT has become a vital tool of ours and is used to generate solid products for our customers.
 
 
-
-
   ## What Hurdles is OSINT on China Helping to Overcome?
 
 
   While we heavily depend on OSINT to meet the challenges and gaps between the collected information and product, our experience of working in China makes us experts in this field.
-
-
 
 
   ### The Chinese Cyber Environment
@@ -46,8 +42,6 @@ post: >-
 
 
   There is no Google Maps, but you can use Baidu Map to find directions without a street view. You will still have to look at Soguo instead of using Google's website for better results.
-
-
 
 
   ### The Language Barrier
@@ -63,8 +57,6 @@ post: >-
 
 
   For example, if one wants to search for military facilities in remote areas and does not know Mandarin well enough, one might need help finding the names of these places because they are usually named after Han Chinese. A good example would be Korla (in Xinjiang), a major city that is named by its original Uyghur name, which means “Happy Valley.”
-
-
 
 
   ### Lack of Public Records
@@ -85,8 +77,6 @@ post: >-
   For military units above regiment level, the PLA uses a 5-digit numerical code in every public record. The only way to get these codes is by looking at either your database (which should update regularly) or local newspapers and websites — and putting the puzzles together from there.
 
 
-
-
   ## OSINT on China's Approach
 
 
@@ -100,8 +90,6 @@ post: >-
 
 
   We hope that by helping your organization and others around the world, we will be able to deal with some of China's challenges.
-
-
 
 
   ## How OSINT on China Functions
@@ -135,6 +123,5 @@ post: >-
 
   * <https://cset.georgetown.edu/publication/chinas-sti-operations/>
 
-
-  <https://www.logically.ai/resources/blog/3-examples-of-geolocation-techniques-vs-chinese-operation>
+  * <https://www.logically.ai/resources/blog/3-examples-of-geolocation-techniques-vs-chinese-operation>
 ---
