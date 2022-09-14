@@ -39,6 +39,13 @@
 							<ul class="grid gap-2">
 								<li>
 									<a
+										href="mailto:OSINTonChina@protonmail.com"
+										class="text-orange-500 hover:underline focus:underline"
+										>OSINTonChina@protonmail.com</a
+									>
+								</li>
+								<li>
+									<a
 										href="mailto:support@osintonchina.com"
 										class="text-orange-500 hover:underline focus:underline"
 										>support@osintonchina.com</a
