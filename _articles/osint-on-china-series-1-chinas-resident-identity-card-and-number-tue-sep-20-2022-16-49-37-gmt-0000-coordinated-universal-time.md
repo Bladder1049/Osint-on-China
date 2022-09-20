@@ -107,7 +107,7 @@ post: >-
   In other words, obtaining a copy of someone's Resident Identity Card or Number is the first step to conducting an OSINT investigation on that person.
 
 
-  Final note: ***[OSINT on China](https://osintonchina.com)*** could help you to identify your target's Chinese Resident Card or Number if you provide solid leads for us to conduct throughout the investigation.
+  Final note: ***[OSINT on China](https://osintonchina.com)*** could help you to identify your target's Chinese Resident Card or Number if you provide solid leads for us to conduct throughout the investigation. [Contact us today](https://osintonchina.com/#contact) : [OSINTonChina@protonmail.com](mailto:OSINTonChina@protonmail.com)
 
 
   ### Useful tools:
