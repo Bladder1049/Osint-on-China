@@ -56,7 +56,7 @@ const pathName = Astro.url.pathname
 				basic: {
 					title: ogTitle || title,
 					type: "website",
-					image: defaultSEO.image.url || image.url
+					image: (image && image.url) || defaultSEO.image.url
 				},
 				image: {
 					width: defaultSEO.image.width,
@@ -190,7 +190,7 @@ const pathName = Astro.url.pathname
 		</script>
 	</head>
 	<body
-		class="min-h-screen flex flex-col w-full overflow-x-hidden overscroll-none font-body text-gray-900 bg-gray-200 dark:bg-gray-900 dark:text-white"
+		class="flex flex-col w-full min-h-screen overflow-x-hidden text-gray-900 bg-gray-200 overscroll-none font-body dark:bg-gray-900 dark:text-white"
 	>
 		<Header pathName={pathName} client:visible />
 

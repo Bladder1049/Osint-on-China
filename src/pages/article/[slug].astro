@@ -33,12 +33,17 @@ if (frontmatter.relatedArticles && frontmatter.relatedArticles.length > 0) {
 }
 
 const data = { slug, frontmatter, relatedArticles }
+
+const featuredImage = {
+	url: data.frontmatter.thumbnail,
+	alt: data.frontmatter.title
+}
 ---
 
 <Layout
 	title={data.frontmatter.title}
 	description={data.frontmatter.description}
-	image={data.frontmatter.thumbnail}
+	image={featuredImage}
 >
 	<ArticleSlice data={data} />
 </Layout>
