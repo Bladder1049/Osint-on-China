@@ -1,6 +1,6 @@
 ---
 // Component imports
-import { Header } from "@global/Header"
+import Header from "@global/Header/Header.astro"
 import { Footer } from "@global/Footer"
 // @ts-ignore
 import { SEO } from "astro-seo"
@@ -39,9 +39,6 @@ const {
 	image,
 	disableIndexing = false
 } = Astro.props as Props
-
-// Grab the current pathname.
-const pathName = Astro.url.pathname
 ---
 
 <html lang="en">
@@ -192,7 +189,7 @@ const pathName = Astro.url.pathname
 	<body
 		class="min-h-screen flex flex-col w-full overflow-x-hidden overscroll-none font-body text-gray-900 bg-gray-200 dark:bg-gray-900 dark:text-white"
 	>
-		<Header pathName={pathName} client:visible />
+		<Header />
 
 		<main class="flex flex-1 flex-col h-[100%] w-full overflow-x-hidden">
 			<slot />
