@@ -1,0 +1,88 @@
+---
+import Link from "../../utils/Link/Link.astro"
+import Text from "../../utils/Text/Text.astro"
+import { Icon } from "astro-icon"
+const { default: innerHTML } = await import("../../../assets/svg/logo.svg?raw")
+---
+
+<header
+	class="sticky inset-x-0 top-0 z-50 bg-gray-200 px-6 dark:bg-gray-900 lg:px-10"
+>
+	<div
+		class="container mx-auto py-6 border-b border-gray-900 border-opacity-10"
+	>
+		<nav class="space-y-2 md:flex md:items-center md:justify-between">
+			<!-- Logo -->
+			<div class="w-2/3 max-w-[298px]">
+				<a href="/">
+					<Fragment set:html={innerHTML} />
+				</a>
+			</div>
+
+			<!-- Links -->
+			<ul class="relative flex flex-wrap items-center gap-2 md:gap-5">
+				<li>
+					<Link href="/">
+						<Text>home</Text>
+					</Link>
+				</li>
+				<li>
+					<Link href="/#about">
+						<Text>about</Text>
+					</Link>
+				</li>
+				<li>
+					<Link href="/#services">
+						<Text>services</Text>
+					</Link>
+				</li>
+				<li>
+					<Link href="/articles">
+						<Text>articles</Text>
+					</Link>
+				</li>
+				<li>
+					<Link href="/#contact">
+						<Text>contact</Text>
+					</Link>
+				</li>
+				<li
+					class="absolute inset-y-0 right-0 translate-y-[-200%] transform-gpu md:relative md:block md:translate-y-0"
+				>
+					<button
+						aria-label="toggle dark mode"
+						id="dark-mode-toggle"
+						class="flex h-12 w-12 items-center justify-center rounded-lg bg-orange-500 text-white dark:bg-orange-700"
+					>
+						<span class="dark:hidden block">
+							<Icon name="feather:moon" aria-hidden class="h-5 w-5" />
+						</span>
+						<span class="dark:block hidden">
+							<Icon name="feather:sun" aria-hidden class="h-5 w-5" />
+						</span>
+					</button>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<script>
+	const darkModeToggle = document.querySelector("#dark-mode-toggle")
+	function toggleDarkMode() {
+		const root = document.documentElement
+		const isDarktheme = root.classList.contains("dark")
+		if (isDarktheme) {
+			root.classList.remove("dark")
+			localStorage.setItem("theme", "light")
+		} else {
+			root.classList.add("dark")
+			localStorage.setItem("theme", "dark")
+		}
+	}
+	if (darkModeToggle) {
+		darkModeToggle.addEventListener("click", () => {
+			toggleDarkMode()
+		})
+	}
+</script>
