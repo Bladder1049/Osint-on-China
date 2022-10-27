@@ -1,0 +1,98 @@
+---
+// Component imports
+import Layout from "@layout"
+import { Hero, Text, Container } from "@utils"
+
+// Static imports
+import MagnifyingGlass from "@svg/icons/magnifying-glass.svg"
+import PinPoint from "@svg/icons/pin-point.svg"
+import LightBulb from "@svg/icons/light-bulb.svg"
+---
+
+<Layout title="Services">
+	<Hero>
+		<Container>
+			<div class="space-y-10">
+				<div class="text-center">
+					<Text tag="h1" style="h2" className="text-orange-500"
+						>Our Services</Text
+					>
+				</div>
+
+				<div class="space-y-5">
+					<Text
+						>We offer access to a wealth of information that can help you make
+						better decisions about your organisation or projects at competitive
+						prices. OSINT has been used in a variety of applications, including
+						military intelligence and law enforcement investigations. We can
+						help you analyze the data you find to identify new opportunities for
+						growth or innovation, avoid costly errors, or improve security
+						posture by keeping an eye on potential threats.</Text
+					>
+					<Text
+						>OSINT has been used in a variety of applications, including
+						military intelligence and law enforcement investigations. We can
+						help you analyze the data you find to identify new opportunities for
+						growth or innovation, avoid costly errors, or improve security
+						posture by keeping an eye on potential threats.</Text
+					>
+				</div>
+
+				<div
+					class="grid gap-10 p-6 md:grid-cols-3 md:p-10 lg:py-16 xl:gap-[82px] xl:px-[90px] bg-orange-600 rounded-2xl"
+				>
+					<!-- Identify -->
+					<div class="space-y-5 text-white">
+						<div>
+							<img src={MagnifyingGlass} alt="Magnifying Glass" />
+						</div>
+						<div class="space-y-[10px]">
+							<Text tag="h3" style="h4">Identify</Text>
+							<Text
+								>OSINT can help you identify and gather information on
+								individuals, organizations, and other entities. It can be used
+								in conjunction with intelligence-gathering techniques to provide
+								valuable insight into the activities of individuals or
+								organizations.</Text
+							>
+						</div>
+					</div>
+
+					<!-- Locate -->
+					<div class="space-y-5 text-white">
+						<div>
+							<img src={PinPoint} alt="Pin Point" />
+						</div>
+						<div class="space-y-[10px]">
+							<Text tag="h3" style="h4">Locate</Text>
+							<Text
+								>We know that the best way to locate your targeted information
+								is through a careful combination of online research,
+								professional networking, and personal connections. Whether it is
+								a requst for real-time or history information, we can do it and
+								we are the firewall between you and your target and the Chinese
+								survillience systems</Text
+							>
+						</div>
+					</div>
+
+					<!-- Solution for follow-up action plan -->
+					<div class="space-y-5 text-white">
+						<div>
+							<img src={LightBulb} alt="Light Bulb" />
+						</div>
+						<div class="space-y-[10px]">
+							<Text tag="h3" style="h4">Action</Text>
+							<Text
+								>OSINT enables us to quickly identify new opportunities and
+								threats, giving you an edge over you and your organisation's
+								mission. This allows us to take action and make informed
+								decisions that can improve your tatics and strategy.</Text
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</Container>
+	</Hero>
+</Layout>

@@ -38,7 +38,7 @@
 </script>
 
 <header
-	class="sticky inset-x-0 top-0 z-50 bg-gray-200 px-6 dark:bg-gray-900 lg:px-10"
+	class="sticky inset-x-0 top-0 z-50 px-6 bg-gray-200 dark:bg-gray-900 lg:px-10"
 >
 	<Container className="py-6 border-b border-gray-900 border-opacity-10">
 		<nav class="space-y-2 md:flex md:items-center md:justify-between">
@@ -71,7 +71,7 @@
 				</li>
 				<li>
 					<Link
-						href="/#services"
+						href="/services"
 						className="hover:text-orange-500 duration-300 ease-in-out transition focus:text-orange-500"
 						{pathName}
 					>
@@ -101,7 +101,7 @@
 				>
 					<button
 						on:click={handleThemeChange}
-						class="flex h-12 w-12 items-center justify-center rounded-lg bg-orange-500 text-white dark:bg-orange-700"
+						class="flex items-center justify-center w-12 h-12 text-white bg-orange-500 rounded-lg dark:bg-orange-700"
 					>
 						{#if theme === "dark"}
 							<svg
@@ -110,7 +110,7 @@
 								viewBox="0 0 24 24"
 								stroke-width="1.5"
 								stroke="currentColor"
-								class="h-8 w-8"
+								class="w-8 h-8"
 							>
 								<path
 									stroke-linecap="round"
@@ -125,7 +125,7 @@
 								viewBox="0 0 24 24"
 								stroke-width="1.5"
 								stroke="currentColor"
-								class="h-6 w-6"
+								class="w-6 h-6"
 							>
 								<path
 									stroke-linecap="round"
