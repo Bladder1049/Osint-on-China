@@ -1,8 +1,6 @@
 <script>
 	// Component imports
 	import { Hero, Text, Container } from "@utils"
-
-	import { FAQItem } from "./FAQItem.svelte"
 </script>
 
 <Hero>
