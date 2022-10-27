@@ -4,7 +4,14 @@ import Layout from "@layout"
 import { LatestArticlesSlice } from "@component/articles"
 
 // Fetch all articles
-const articles = (await Astro.glob("../../_articles/*.md")).reverse()
+let articles = (await Astro.glob("../../_articles/*.md")).reverse()
+
+articles = articles.sort((a, b) => {
+	return (
+		new Date(b.frontmatter.date).valueOf() -
+		new Date(a.frontmatter.date).valueOf()
+	)
+})
 ---
 
 <Layout title="Latest Articles">
