@@ -43,7 +43,7 @@
 					</li>
 					<li>
 						<Link
-							href="/"
+							href="/services"
 							className="hover:text-orange-500 duration-300 ease-in-out transition focus:text-orange-500"
 						>
 							<Text>services</Text>
