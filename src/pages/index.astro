@@ -12,7 +12,14 @@ import {
 // Fetch all articles
 const articles = await Astro.glob("../../_articles/*.md")
 
-const filteredArticles = articles.slice(-3).reverse()
+let filteredArticles = articles.slice(-3).reverse()
+
+filteredArticles = filteredArticles.sort((a, b) => {
+	return (
+		new Date(b.frontmatter.date).valueOf() -
+		new Date(a.frontmatter.date).valueOf()
+	)
+})
 ---
 
 <Layout title="Home">
