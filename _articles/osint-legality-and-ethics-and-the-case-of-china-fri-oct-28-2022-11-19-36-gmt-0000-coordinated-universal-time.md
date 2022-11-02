@@ -132,9 +132,6 @@ post: >-
   The nature of Chinese politics and their military strategy are myths. China has always been a secretive country, so it is challenging to know its real intentions. Their policy is to keep themselves in power by manipulating people and keeping them in the dark about important events. This way, they can control the population without opening up completely or facing opposition. Therefore, we, OSINT on China, believe it is ethical to conduct OSINT investigation or research on them for high-value Chinese targets.
 
 
-  ![OSINT China, China OSINT, Chines OSINT, OSINT]()
-
-
   ## Quick takeaways
 
 
