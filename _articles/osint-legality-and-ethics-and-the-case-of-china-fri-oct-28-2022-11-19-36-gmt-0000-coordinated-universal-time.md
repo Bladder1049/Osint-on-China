@@ -78,11 +78,13 @@ post: >-
   The general rule for starting an ethical OSINT investigation is to consolidate reasonable justification first. Still, there are some rules that we strictly follow:
 
 
-  * you should not access another user's account.
+  \-you should not access another user's account.
 
-  * you should not impersonate another person and hide behind a false identity to engage a topic in discussion or entice them to share information.
 
-  * you should not access material that is password-protected or requires any other form of login or private credential unless such material is acquired from leaked or breached sources.
+  \-you should not impersonate another person and hide behind a false identity to engage a topic in discussion or entice them to share information.
+
+
+  \-you should not access material that is password-protected or requires any other form of login or private credential unless such material is acquired from leaked or breached sources.
 
 
   ### Scenarios- Criminal Activities, Foreign Targets, and Average Joe.
@@ -130,7 +132,7 @@ post: >-
   The nature of Chinese politics and their military strategy are myths. China has always been a secretive country, so it is challenging to know its real intentions. Their policy is to keep themselves in power by manipulating people and keeping them in the dark about important events. This way, they can control the population without opening up completely or facing opposition. Therefore, we, OSINT on China, believe it is ethical to conduct OSINT investigation or research on them for high-value Chinese targets.
 
 
-  ![OSINT China, China OSINT, Chines OSINT, OSINT](/images/osint-on-china_colored-logo-on-black-bg.jpg)
+  ![OSINT China, China OSINT, Chines OSINT, OSINT]()
 
 
   ## Quick takeaways
@@ -181,11 +183,13 @@ post: >-
   When using any OSINT resources, knowing the legal and ethical considerations is crucial. Some things you need to keep in mind when conducting your research include the following:
 
 
-  1) Not breaking any laws.
+  1. Not breaking any laws.
 
-  2) Always using caution when disclosing sensitive information (including personally identifying information).
 
-  3) Respecting people's privacy.
+  2. Always using caution when disclosing sensitive information (including personally identifying information).
+
+
+  3. Respecting people's privacy.
 
 
   Additionally, ensure that the source of the data you're using is reputable and can be verified.
