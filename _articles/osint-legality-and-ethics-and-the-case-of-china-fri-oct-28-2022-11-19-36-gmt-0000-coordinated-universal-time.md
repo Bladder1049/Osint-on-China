@@ -180,13 +180,13 @@ post: >-
   When using any OSINT resources, knowing the legal and ethical considerations is crucial. Some things you need to keep in mind when conducting your research include the following:
 
 
-  1. Not breaking any laws.
+  \-Not breaking any laws.
 
 
-  2. Always using caution when disclosing sensitive information (including personally identifying information).
+  \-Always using caution when disclosing sensitive information (including personally identifying information).
 
 
-  3. Respecting people's privacy.
+  \-Respecting people's privacy.
 
 
   Additionally, ensure that the source of the data you're using is reputable and can be verified.
