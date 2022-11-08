@@ -66,8 +66,6 @@ post: >-
   If there isn't any prohibition prohibiting you from obtaining publicly accessible information on any particular person, applying OSINT methods on that person, even if they are a celebrity, should be permissible. But, if you're doing OSINT research or inquiry on Heads of State or Government, people in the intelligence and military community, common sense dictates that you use caution. Assume, for example, that a government agency discovers your OSINT study or inquiry. You will be on a watch list if such behavior seems suspicious and compromises national interests.
 
 
-
-
   ## Ethics of OSINT
 
 
@@ -80,13 +78,13 @@ post: >-
   The general rule for starting an ethical OSINT investigation is to consolidate reasonable justification first. Still, there are some rules that we strictly follow:
 
 
-  1) you should not access another user's account.
+  \-you should not access another user's account.
 
 
-  2) you should not impersonate another person and hide behind a false identity to engage a topic in discussion or entice them to share information.
+  \-you should not impersonate another person and hide behind a false identity to engage a topic in discussion or entice them to share information.
 
 
-  3) you should not access material that is password-protected or requires any other form of login or private credential unless such material is acquired from leaked or breached sources.
+  \-you should not access material that is password-protected or requires any other form of login or private credential unless such material is acquired from leaked or breached sources.
 
 
   ### Scenarios- Criminal Activities, Foreign Targets, and Average Joe.
@@ -108,8 +106,6 @@ post: >-
 
 
   You have the skills and resources to investigate someone's private life as an OSINT practitioner. However, it does not mean you have the right to invade others' privacy. Before you attempt to "OSINT" someone, make sure you ask yourself whether or not you'll be comfortable if that person does the same thing to you. Conducting an OSINT investigation without good cause is not ethically acceptable.
-
-
 
 
   ## Case: Doing OSINT on China
@@ -134,9 +130,6 @@ post: >-
 
 
   The nature of Chinese politics and their military strategy are myths. China has always been a secretive country, so it is challenging to know its real intentions. Their policy is to keep themselves in power by manipulating people and keeping them in the dark about important events. This way, they can control the population without opening up completely or facing opposition. Therefore, we, OSINT on China, believe it is ethical to conduct OSINT investigation or research on them for high-value Chinese targets.
-
-
-  ![OSINT China, China OSINT, Chines OSINT, OSINT](/images/osint-on-china_colored-logo-on-black-bg.jpg)
 
 
   ## Quick takeaways
@@ -166,8 +159,6 @@ post: >-
   Despite this, accurate strategy and workable follow-up actions may be guided by OSINT research on China and the Chinese public, influenced by China's nature. ***[OSINT on China](https://osintonchina.com/#contact)***, on the other hand, will be your protection shield, protecting you, your team, and your work. And through OSINT, our expertise, and our network, we at ***[OSINT on China](https://osintonchina.com/#contact)*** strive to deliver you crucial information.
 
 
-
-
   ## Frequently Asked Questions
 
 
@@ -189,11 +180,13 @@ post: >-
   When using any OSINT resources, knowing the legal and ethical considerations is crucial. Some things you need to keep in mind when conducting your research include the following:
 
 
-  * Not breaking any laws.
+  \-Not breaking any laws.
 
-  * Always using caution when disclosing sensitive information (including personally identifying information).
 
-  * Respecting people's privacy.
+  \-Always using caution when disclosing sensitive information (including personally identifying information).
+
+
+  \-Respecting people's privacy.
 
 
   Additionally, ensure that the source of the data you're using is reputable and can be verified.
