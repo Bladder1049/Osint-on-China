@@ -12,7 +12,7 @@ import {
 // Fetch all articles
 const articles = await Astro.glob("../../_articles/*.md")
 
-let filteredArticles = articles.slice(-3).reverse()
+let filteredArticles = articles.slice(-4).reverse()
 
 filteredArticles = filteredArticles.sort((a, b) => {
 	return (
