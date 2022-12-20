@@ -1,0 +1,20 @@
+---
+interface Props extends astroHTML.JSX.AnchorHTMLAttributes {
+	href: string
+}
+const pathname = new URL(Astro.request.url).pathname
+
+const { href, ...rest } = Astro.props as Props
+---
+
+<a
+	{...rest}
+	href={href}
+	aria-current={`${pathname === href ? "page" : "false"}`}
+	class:list={[
+		"hover:text-orange-500 duration-300 ease-in-out transition focus:text-orange-500",
+		pathname === href && "text-orange-500"
+	]}
+>
+	<slot />
+</a>

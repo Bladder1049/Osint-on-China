@@ -1,0 +1,19 @@
+---
+import cn from "classnames"
+type tag = "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "p"
+
+type style = "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "p" | "small" | "tiny"
+
+interface Props {
+	tag?: tag
+	style?: style
+	className?: string
+}
+
+const { style = "p", tag = "p", className } = Astro.props as Props
+const Tag = tag
+---
+
+<Tag class={cn(style, className)}>
+	<slot />
+</Tag>
