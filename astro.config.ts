@@ -8,14 +8,12 @@ import SvelteSVG from "vite-plugin-svelte-svg"
 import { VitePWA } from "vite-plugin-pwa"
 import { manifest, defaultSEO } from "./helpers/seoConfig"
 
-// https://astro.build/config
 export default defineConfig({
 	site: defaultSEO.baseURL,
 	integrations: [
 		tailwind({
 			config: {
-				applyBaseStyles: false,
-				path: "./tailwind.config.js"
+				applyBaseStyles: false
 			}
 		}),
 		svelte(),
@@ -24,7 +22,11 @@ export default defineConfig({
 	],
 	vite: {
 		plugins: [
-			SvelteSVG(),
+			SvelteSVG({
+				svgoConfig: {
+					multipass: true
+				}
+			}),
 			VitePWA({
 				registerType: "autoUpdate",
 				manifest,
@@ -32,9 +34,13 @@ export default defineConfig({
 					globDirectory: "dist",
 					globPatterns: [
 						"**/*.{js,css,svg,png,jpg,jpeg,gif,webp,woff,woff2,ttf,eot,ico,html}"
-					]
+					],
+					navigateFallback: null
 				}
 			})
-		]
+		],
+		build: {
+			cssCodeSplit: false
+		}
 	}
 })
