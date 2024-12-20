@@ -101,7 +101,7 @@
 			<div class="text-center lg:hidden">
 				<Text style="small" className="">
 					<span class="opacity-50"
-						>Copyright &copy; 2022 OsintOnChina.com |All Rights Reserved</span
+						>Copyright &copy; 2022-2025 OsintOnChina.com |All Rights Reserved</span
 					>
 					| <Link
 						href="/privacy-policy"
