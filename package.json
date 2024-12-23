@@ -1,53 +1,55 @@
 {
-	"name": "syncore-astro-starter",
-	"version": "1.3.0",
-	"private": true,
-	"type": "module",
-	"engines": {
-		"node": ">=18.14.1",
-		"pnpm": ">=8.0.0"
-	},
-	"scripts": {
-		"dev": "astro dev",
-		"start": "astro dev", 
-		"build": "astro build",
-		"preview": "astro preview",
-		"lint": "eslint . --ext .js,.ts,.astro,.svelte",
-		"format": "prettier --write .",
-		"typecheck": "astro check && svelte-check"
-	},
-	"dependencies": {
-		"dayjs": "^1.11.10"
-	},
-	"devDependencies": {
-		"@astrojs/check": "^0.3.1",
-		"@astrojs/rss": "^4.0.1",
-		"@astrojs/sitemap": "^3.0.3", 
-		"@astrojs/svelte": "^5.0.1",
-		"@astrojs/tailwind": "^5.0.3",
-		"@typescript-eslint/eslint-plugin": "^6.13.2",
-		"@typescript-eslint/parser": "^6.13.2",
-		"astro": "^4.0.3",
-		"astro-compress": "^2.2.3",
-		"astro-seo": "^0.8.0",
-		"classnames": "^2.3.2",
-		"eslint": "^8.55.0",
-		"eslint-plugin-astro": "^0.30.0",
-		"eslint-plugin-jsx-a11y": "^6.8.0",
-		"eslint-plugin-svelte": "^2.35.1",
-		"prettier": "^3.1.0",
-		"prettier-plugin-astro": "^0.12.2",
-		"prettier-plugin-svelte": "^3.1.2",
-		"prettier-plugin-tailwindcss": "^0.5.9",
-		"svelte": "^4.2.8",
-		"svelte-check": "^3.6.2",
-		"svelte-markdown": "^0.4.0",
-		"tailwind-scrollbar": "^3.0.5",
-		"tailwindcss": "^3.3.6",
-		"tailwindcss-animate": "^1.0.7",
-		"typescript": "^5.3.3",
-		"vite": "^5.0.5",
-		"vite-plugin-pwa": "^0.17.2",
-		"vite-plugin-svelte-svg": "^2.3.0"
-	}
+  "name": "osint-china",
+  "version": "1.4.7",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0",
+    "npm": ">=10.9.2"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "lint": "eslint . --ext .js,.ts,.astro,.svelte",
+    "format": "prettier --write .",
+    "typecheck": "astro check && svelte-check",
+    "clean": "rm -rf node_modules package-lock.json dist .astro",
+    "postinstall": "astro sync"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.4",
+    "@astrojs/rss": "^4.0.1",
+    "@astrojs/sitemap": "^3.0.3", 
+    "@astrojs/svelte": "^5.0.2",
+    "@astrojs/tailwind": "^5.0.3",
+    "astro": "^5.1.1",
+    "dayjs": "^1.11.10",
+    "svelte": "^4.2.11",
+    "svelte-markdown": "^0.4.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "astro-compress": "^2.2.3",
+    "astro-seo": "^0.8.0",
+    "classnames": "^2.3.2",
+    "eslint": "^8.57.0",
+    "eslint-plugin-astro": "^0.31.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-svelte": "^2.35.1",
+    "prettier": "^3.3.0",
+    "prettier-plugin-astro": "^0.12.2",
+    "prettier-plugin-svelte": "^3.1.2",
+    "prettier-plugin-tailwindcss": "^0.5.9",
+    "svelte-check": "^3.6.2",
+    "tailwind-scrollbar": "^3.0.5",
+    "tailwindcss": "^3.4.2",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.4.2",
+    "vite": "^5.4.9",
+    "vite-plugin-pwa": "^0.17.5",
+    "vite-plugin-svelte-svg": "^2.3.0"
+  }
 }
