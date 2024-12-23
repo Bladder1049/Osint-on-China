@@ -1,22 +1,23 @@
 {
-	"compilerOptions": {
-		"target": "ESNext",
-		"module": "ESNext",
-		"moduleResolution": "node",
-		"resolveJsonModule": true,
-		"isolatedModules": true,
-		"types": ["astro/client"],
-		"baseUrl": ".",
-		"paths": {
-			"@component/*": ["src/components/*"],
-			"@utils": ["src/components/utils"],
-			"@global/*": ["src/components/global/*"],
-			"@layout": ["src/components/global/Layout/Layout.astro"],
-			"@style/*": ["src/styles/*"],
-			"@helper/*": ["helpers/*"],
-			"@img/*": ["src/assets/img/*"],
-			"@svg/*": ["src/assets/svg/*"],
-			"@icon/*": ["src/assets/svg/icon/*"]
-		}
-	}
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "types": ["astro/client"],
+    "baseUrl": ".",
+    "paths": {
+      "@component/*": ["src/components/*"],
+      "@utils/*": ["src/utils/*"],
+      "@utils": ["src/components/utils"],
+      "@global/*": ["src/components/global/*"],
+      "@layout": ["src/components/global/Layout/Layout.astro"],
+      "@style/*": ["src/styles/*"],
+      "@helper/*": ["helpers/*"],
+      "@img/*": ["src/assets/img/*"],
+      "@svg/*": ["src/assets/svg/*"],
+      "@icon/*": ["src/assets/svg/icon/*"]
+    }
+  }
 }
